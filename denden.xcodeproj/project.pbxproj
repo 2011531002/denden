@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9DB53B18349A62006B79ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DB53A18349A62006B79ED /* UIKit.framework */; };
+		AA9DB53D18349A62006B79ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DB53C18349A62006B79ED /* Foundation.framework */; };
+		AA9DB53F18349A62006B79ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DB53E18349A62006B79ED /* CoreGraphics.framework */; };
+		AA9DB54518349A62006B79ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9DB54318349A62006B79ED /* InfoPlist.strings */; };
+		AA9DB54718349A62006B79ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DB54618349A62006B79ED /* main.m */; };
+		AA9DB54B18349A62006B79ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DB54A18349A62006B79ED /* AppDelegate.m */; };
+		AA9DB54D18349A62006B79ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9DB54C18349A62006B79ED /* Default.png */; };
+		AA9DB54F18349A62006B79ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9DB54E18349A62006B79ED /* Default@2x.png */; };
+		AA9DB55118349A62006B79ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9DB55018349A62006B79ED /* Default-568h@2x.png */; };
+		AA9DB55418349A63006B79ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9DB55218349A63006B79ED /* MainStoryboard.storyboard */; };
+		AA9DB55718349A63006B79ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DB55618349A63006B79ED /* ViewController.m */; };
+		AA9DB55F18349A63006B79ED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DB55E18349A63006B79ED /* SenTestingKit.framework */; };
+		AA9DB56018349A63006B79ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DB53A18349A62006B79ED /* UIKit.framework */; };
+		AA9DB56118349A63006B79ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DB53C18349A62006B79ED /* Foundation.framework */; };
+		AA9DB56918349A63006B79ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9DB56718349A63006B79ED /* InfoPlist.strings */; };
+		AA9DB56C18349A63006B79ED /* dendenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9DB56B18349A63006B79ED /* dendenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9DB56218349A63006B79ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9DB52F18349A62006B79ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9DB53618349A62006B79ED;
+			remoteInfo = denden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA9DB53718349A62006B79ED /* denden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = denden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9DB53A18349A62006B79ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA9DB53C18349A62006B79ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA9DB53E18349A62006B79ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA9DB54218349A62006B79ED /* denden-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "denden-Info.plist"; sourceTree = "<group>"; };
+		AA9DB54418349A62006B79ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA9DB54618349A62006B79ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA9DB54818349A62006B79ED /* denden-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "denden-Prefix.pch"; sourceTree = "<group>"; };
+		AA9DB54918349A62006B79ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA9DB54A18349A62006B79ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA9DB54C18349A62006B79ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA9DB54E18349A62006B79ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AA9DB55018349A62006B79ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA9DB55318349A63006B79ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA9DB55518349A63006B79ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA9DB55618349A63006B79ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA9DB55D18349A63006B79ED /* dendenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dendenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9DB55E18349A63006B79ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA9DB56618349A63006B79ED /* dendenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dendenTests-Info.plist"; sourceTree = "<group>"; };
+		AA9DB56818349A63006B79ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA9DB56A18349A63006B79ED /* dendenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dendenTests.h; sourceTree = "<group>"; };
+		AA9DB56B18349A63006B79ED /* dendenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dendenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9DB53418349A62006B79ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9DB53B18349A62006B79ED /* UIKit.framework in Frameworks */,
+				AA9DB53D18349A62006B79ED /* Foundation.framework in Frameworks */,
+				AA9DB53F18349A62006B79ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9DB55918349A63006B79ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9DB55F18349A63006B79ED /* SenTestingKit.framework in Frameworks */,
+				AA9DB56018349A63006B79ED /* UIKit.framework in Frameworks */,
+				AA9DB56118349A63006B79ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9DB52E18349A62006B79ED = {
+			isa = PBXGroup;
+			children = (
+				AA9DB54018349A62006B79ED /* denden */,
+				AA9DB56418349A63006B79ED /* dendenTests */,
+				AA9DB53918349A62006B79ED /* Frameworks */,
+				AA9DB53818349A62006B79ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9DB53818349A62006B79ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DB53718349A62006B79ED /* denden.app */,
+				AA9DB55D18349A63006B79ED /* dendenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9DB53918349A62006B79ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DB53A18349A62006B79ED /* UIKit.framework */,
+				AA9DB53C18349A62006B79ED /* Foundation.framework */,
+				AA9DB53E18349A62006B79ED /* CoreGraphics.framework */,
+				AA9DB55E18349A63006B79ED /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA9DB54018349A62006B79ED /* denden */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DB54918349A62006B79ED /* AppDelegate.h */,
+				AA9DB54A18349A62006B79ED /* AppDelegate.m */,
+				AA9DB55218349A63006B79ED /* MainStoryboard.storyboard */,
+				AA9DB55518349A63006B79ED /* ViewController.h */,
+				AA9DB55618349A63006B79ED /* ViewController.m */,
+				AA9DB54118349A62006B79ED /* Supporting Files */,
+			);
+			path = denden;
+			sourceTree = "<group>";
+		};
+		AA9DB54118349A62006B79ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DB54218349A62006B79ED /* denden-Info.plist */,
+				AA9DB54318349A62006B79ED /* InfoPlist.strings */,
+				AA9DB54618349A62006B79ED /* main.m */,
+				AA9DB54818349A62006B79ED /* denden-Prefix.pch */,
+				AA9DB54C18349A62006B79ED /* Default.png */,
+				AA9DB54E18349A62006B79ED /* Default@2x.png */,
+				AA9DB55018349A62006B79ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA9DB56418349A63006B79ED /* dendenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DB56A18349A63006B79ED /* dendenTests.h */,
+				AA9DB56B18349A63006B79ED /* dendenTests.m */,
+				AA9DB56518349A63006B79ED /* Supporting Files */,
+			);
+			path = dendenTests;
+			sourceTree = "<group>";
+		};
+		AA9DB56518349A63006B79ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DB56618349A63006B79ED /* dendenTests-Info.plist */,
+				AA9DB56718349A63006B79ED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9DB53618349A62006B79ED /* denden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9DB56F18349A63006B79ED /* Build configuration list for PBXNativeTarget "denden" */;
+			buildPhases = (
+				AA9DB53318349A62006B79ED /* Sources */,
+				AA9DB53418349A62006B79ED /* Frameworks */,
+				AA9DB53518349A62006B79ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = denden;
+			productName = denden;
+			productReference = AA9DB53718349A62006B79ED /* denden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9DB55C18349A63006B79ED /* dendenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9DB57218349A63006B79ED /* Build configuration list for PBXNativeTarget "dendenTests" */;
+			buildPhases = (
+				AA9DB55818349A63006B79ED /* Sources */,
+				AA9DB55918349A63006B79ED /* Frameworks */,
+				AA9DB55A18349A63006B79ED /* Resources */,
+				AA9DB55B18349A63006B79ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9DB56318349A63006B79ED /* PBXTargetDependency */,
+			);
+			name = dendenTests;
+			productName = dendenTests;
+			productReference = AA9DB55D18349A63006B79ED /* dendenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9DB52F18349A62006B79ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "univercity of kitakyusyu";
+			};
+			buildConfigurationList = AA9DB53218349A62006B79ED /* Build configuration list for PBXProject "denden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA9DB52E18349A62006B79ED;
+			productRefGroup = AA9DB53818349A62006B79ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9DB53618349A62006B79ED /* denden */,
+				AA9DB55C18349A63006B79ED /* dendenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9DB53518349A62006B79ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9DB54518349A62006B79ED /* InfoPlist.strings in Resources */,
+				AA9DB54D18349A62006B79ED /* Default.png in Resources */,
+				AA9DB54F18349A62006B79ED /* Default@2x.png in Resources */,
+				AA9DB55118349A62006B79ED /* Default-568h@2x.png in Resources */,
+				AA9DB55418349A63006B79ED /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9DB55A18349A63006B79ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9DB56918349A63006B79ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA9DB55B18349A63006B79ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9DB53318349A62006B79ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9DB54718349A62006B79ED /* main.m in Sources */,
+				AA9DB54B18349A62006B79ED /* AppDelegate.m in Sources */,
+				AA9DB55718349A63006B79ED /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9DB55818349A63006B79ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9DB56C18349A63006B79ED /* dendenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9DB56318349A63006B79ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9DB53618349A62006B79ED /* denden */;
+			targetProxy = AA9DB56218349A63006B79ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA9DB54318349A62006B79ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9DB54418349A62006B79ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA9DB55218349A63006B79ED /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9DB55318349A63006B79ED /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9DB56718349A63006B79ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9DB56818349A63006B79ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9DB56D18349A63006B79ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA9DB56E18349A63006B79ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9DB57018349A63006B79ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denden/denden-Prefix.pch";
+				INFOPLIST_FILE = "denden/denden-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA9DB57118349A63006B79ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denden/denden-Prefix.pch";
+				INFOPLIST_FILE = "denden/denden-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA9DB57318349A63006B79ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/denden.app/denden";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denden/denden-Prefix.pch";
+				INFOPLIST_FILE = "dendenTests/dendenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA9DB57418349A63006B79ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/denden.app/denden";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denden/denden-Prefix.pch";
+				INFOPLIST_FILE = "dendenTests/dendenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9DB53218349A62006B79ED /* Build configuration list for PBXProject "denden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9DB56D18349A63006B79ED /* Debug */,
+				AA9DB56E18349A63006B79ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9DB56F18349A63006B79ED /* Build configuration list for PBXNativeTarget "denden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9DB57018349A63006B79ED /* Debug */,
+				AA9DB57118349A63006B79ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA9DB57218349A63006B79ED /* Build configuration list for PBXNativeTarget "dendenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9DB57318349A63006B79ED /* Debug */,
+				AA9DB57418349A63006B79ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9DB52F18349A62006B79ED /* Project object */;
+}
