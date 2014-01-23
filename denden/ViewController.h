@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+IBOutlet UILabel *label;
+    BOOL startInput;
+    int currentValue;
+    int operation;
+}
+-(IBAction)opButtonPressed:(id)sender;
+-(IBAction)clearButtonPressed:(id)sender;
+-(IBAction)numberButtonPressed:(id)sender;
+-(IBAction)equalButtonPressed:(id)sender;
 @end
+
